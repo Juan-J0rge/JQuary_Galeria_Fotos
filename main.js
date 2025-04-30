@@ -13,11 +13,11 @@ $(document).ready(function() {
       e.preventDefault();
 
       const enderecoimagem = $('#endereco-imagem').val();
-      const novoItem = $(' <li style="display = none"> </li>');
+      const novoItem = $(' <li style="display: none"> </li>');
       $(`<img src ="${enderecoimagem}" />`).appendTo(novoItem);
       $(`<div class = "overlay-imagem">
 
-         <a href = "${enderecoimagem}" target="_blank_ tittle="ver imagem
+         <a href = "${enderecoimagem}" target="_blank" title="ver imagem
          em tamanho real"
          </a>
          </div>
